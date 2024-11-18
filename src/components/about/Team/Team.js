@@ -5,20 +5,20 @@ const Team = ({ children }) => {
   return (
     <>
       {/* Team */}
-      <div className='container content-space-1'>
-        <div className='row mb-sm-5'>
-          <div className='col-sm-6 col-lg-4 mb-7'>
+      <div className="container content-space-1">
+        <div className="row mb-sm-5">
+          <div className="col-sm-6 col-lg-4 mb-7">
             {/* Team */}
-            <div className='w-65 text-center mx-auto'>
+            <div className="w-65 text-center mx-auto">
               <Image
-                className='img-fluid rounded-circle mb-5'
-                src='../assets/img/350x350/img1.jpg'
-                alt='Image Description'
+                className="img-fluid rounded-circle mb-5"
+                src="../assets/img/350x350/img1.jpg"
+                alt="Image Description"
               />
-              <h6 className='mb-1'>Christina Kray</h6>
-              <span className='d-block'>Founder / CEO</span>
+              <h6 className="mb-1">Christina Kray</h6>
+              <span className="d-block">Founder / CEO</span>
               <div
-                className='border-top mx-auto my-3'
+                className="border-top mx-auto my-3"
                 style={{ maxWidth: '5rem' }}
               />
               <p>Loves to chat about typography, you have been warned.</p>
@@ -26,18 +26,18 @@ const Team = ({ children }) => {
             {/* End Team */}
           </div>
           {/* End Col */}
-          <div className='col-sm-6 col-lg-4 mb-7'>
+          <div className="col-sm-6 col-lg-4 mb-7">
             {/* Team */}
-            <div className='w-65 text-center mx-auto'>
+            <div className="w-65 text-center mx-auto">
               <Image
-                className='img-fluid rounded-circle mb-5'
-                src='../assets/img/350x350/img2.jpg'
-                alt='Image Description'
+                className="img-fluid rounded-circle mb-5"
+                src="../assets/img/350x350/img2.jpg"
+                alt="Image Description"
               />
-              <h6 className='mb-1'>Jeff Fisher</h6>
-              <span className='d-block'>Project Manager</span>
+              <h6 className="mb-1">Jeff Fisher</h6>
+              <span className="d-block">Project Manager</span>
               <div
-                className='border-top mx-auto my-3'
+                className="border-top mx-auto my-3"
                 style={{ maxWidth: '5rem' }}
               />
               <p>
@@ -48,18 +48,18 @@ const Team = ({ children }) => {
             {/* End Team */}
           </div>
           {/* End Col */}
-          <div className='col-sm-6 col-lg-4 mb-7'>
+          <div className="col-sm-6 col-lg-4 mb-7">
             {/* Team */}
-            <div className='w-65 text-center mx-auto'>
+            <div className="w-65 text-center mx-auto">
               <Image
-                className='img-fluid rounded-circle mb-5'
-                src='../assets/img/350x350/img3.jpg'
-                alt='Image Description'
+                className="img-fluid rounded-circle mb-5"
+                src="../assets/img/350x350/img3.jpg"
+                alt="Image Description"
               />
-              <h6 className='mb-1'>Sophia Harrington</h6>
-              <span className='d-block'>Project Manager</span>
+              <h6 className="mb-1">Sophia Harrington</h6>
+              <span className="d-block">Project Manager</span>
               <div
-                className='border-top mx-auto my-3'
+                className="border-top mx-auto my-3"
                 style={{ maxWidth: '5rem' }}
               />
               <p>Loves to chat about typography, you have been warned.</p>
@@ -67,18 +67,18 @@ const Team = ({ children }) => {
             {/* End Team */}
           </div>
           {/* End Col */}
-          <div className='col-sm-6 col-lg-4 mb-7'>
+          <div className="col-sm-6 col-lg-4 mb-7">
             {/* Team */}
-            <div className='w-65 text-center mx-auto'>
+            <div className="w-65 text-center mx-auto">
               <Image
-                className='img-fluid rounded-circle mb-5'
-                src='../assets/img/350x350/img4.jpg'
-                alt='Image Description'
+                className="img-fluid rounded-circle mb-5"
+                src="../assets/img/350x350/img4.jpg"
+                alt="Image Description"
               />
-              <h6 className='mb-1'>David Forren</h6>
-              <span className='d-block'>Support Consultant</span>
+              <h6 className="mb-1">David Forren</h6>
+              <span className="d-block">Support Consultant</span>
               <div
-                className='border-top mx-auto my-3'
+                className="border-top mx-auto my-3"
                 style={{ maxWidth: '5rem' }}
               />
               <p>Behind every great project is a great Google Slides deck.</p>
@@ -86,18 +86,18 @@ const Team = ({ children }) => {
             {/* End Team */}
           </div>
           {/* End Col */}
-          <div className='col-sm-6 col-lg-4 mb-7'>
+          <div className="col-sm-6 col-lg-4 mb-7">
             {/* Team */}
-            <div className='w-65 text-center mx-auto'>
+            <div className="w-65 text-center mx-auto">
               <Image
-                className='img-fluid rounded-circle mb-5'
-                src='../assets/img/350x350/img5.jpg'
-                alt='Image Description'
+                className="img-fluid rounded-circle mb-5"
+                src="../assets/img/350x350/img5.jpg"
+                alt="Image Description"
               />
-              <h6 className='mb-1'>Amil Evara</h6>
-              <span className='d-block'>UI/UX Designer</span>
+              <h6 className="mb-1">Amil Evara</h6>
+              <span className="d-block">UI/UX Designer</span>
               <div
-                className='border-top mx-auto my-3'
+                className="border-top mx-auto my-3"
                 style={{ maxWidth: '5rem' }}
               />
               <p>
@@ -107,18 +107,18 @@ const Team = ({ children }) => {
             {/* End Team */}
           </div>
           {/* End Col */}
-          <div className='col-sm-6 col-lg-4 mb-7'>
+          <div className="col-sm-6 col-lg-4 mb-7">
             {/* Team */}
-            <div className='w-65 text-center mx-auto'>
+            <div className="w-65 text-center mx-auto">
               <Image
-                className='img-fluid rounded-circle mb-5'
-                src='../assets/img/350x350/img6.jpg'
-                alt='Image Description'
+                className="img-fluid rounded-circle mb-5"
+                src="../assets/img/350x350/img6.jpg"
+                alt="Image Description"
               />
-              <h6 className='mb-1'>Tom Lowry</h6>
-              <span className='d-block'>UI/UX Designer</span>
+              <h6 className="mb-1">Tom Lowry</h6>
+              <span className="d-block">UI/UX Designer</span>
               <div
-                className='border-top mx-auto my-3'
+                className="border-top mx-auto my-3"
                 style={{ maxWidth: '5rem' }}
               />
               <p>Loves to chat about typography, you have been warned.</p>
@@ -129,11 +129,11 @@ const Team = ({ children }) => {
         </div>
         {/* End Row */}
         {/* Info */}
-        <div className='text-center'>
-          <p className='mb-0'>Want to join us?</p>
-          <a className='link' href='../page-careers.html'>
+        <div className="text-center">
+          <p className="mb-0">Want to join us?</p>
+          <a className="link" href="../page-careers.html">
             See all opening positions{' '}
-            <i className='bi-chevron-right small ms-1' />
+            <i className="bi-chevron-right small ms-1" />
           </a>
         </div>
         {/* End Info */}

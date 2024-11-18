@@ -4,20 +4,20 @@ import React from 'react'
 const AmphitheatreSpace = () => {
   return (
     <>
-      <div className='bg-primary-dark'>
-        <div className='container content-space-1 content-space-md-2'>
-          <div className='row justify-content-lg-center position-relative zi-2'>
-            <div className='col-lg-8'>
-              <div className='mb-6'>
-                <h1 className='h2 text-white'>Swahilipot Hub Amphitheater</h1>
-                <p className='lead text-white'>Where Art Meets the Heart</p>
+      <div className="bg-primary-dark">
+        <div className="container content-space-1 content-space-md-2">
+          <div className="row justify-content-lg-center position-relative zi-2">
+            <div className="col-lg-8">
+              <div className="mb-6">
+                <h1 className="h2 text-white">Swahilipot Hub Amphitheater</h1>
+                <p className="lead text-white">Where Art Meets the Heart</p>
               </div>
 
-              <div className='mt-5'>
+              <div className="mt-5">
                 <Image
-                  className='img-fluid'
-                  src='/images/spaces/amp/Amp3.jpg'
-                  alt='Image Description'
+                  className="img-fluid"
+                  src="/images/spaces/amp/Amp3.jpg"
+                  alt="Image Description"
                 />
               </div>
             </div>
@@ -25,25 +25,25 @@ const AmphitheatreSpace = () => {
         </div>
       </div>
 
-      <div className='shape-container'>
-        <div className='shape shape-bottom zi-1'>
+      <div className="shape-container">
+        <div className="shape shape-bottom zi-1">
           <svg
-            width='3000'
-            height='600'
-            viewBox='0 0 3000 600'
-            fill='none'
-            xmlns='http://www.w3.org/2000/svg'
+            width="3000"
+            height="600"
+            viewBox="0 0 3000 600"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <path d='M0 600H3000V0L0 600Z' fill='#fff' />
+            <path d="M0 600H3000V0L0 600Z" fill="#fff" />
           </svg>
         </div>
       </div>
 
-      <div className='container content-space-b-1 content-space-b-md-3'>
-        <div className='row justify-content-lg-center'>
-          <div className='col-lg-8'>
-            <figure className='mb-3'>
-              <blockquote className='blockquote'>
+      <div className="container content-space-b-1 content-space-b-md-3">
+        <div className="row justify-content-lg-center">
+          <div className="col-lg-8">
+            <figure className="mb-3">
+              <blockquote className="blockquote">
                 Where Art and Entertainment Flourish
               </blockquote>
             </figure>
@@ -55,15 +55,15 @@ const AmphitheatreSpace = () => {
               community and the celebration of the performing arts.
             </p>
 
-            <div className='my-5'>
+            <div className="my-5">
               <Image
-                className='img-fluid'
-                src='/images/spaces/amp/Amp1.jpg'
-                alt='Image Description'
+                className="img-fluid"
+                src="/images/spaces/amp/Amp1.jpg"
+                alt="Image Description"
               />
             </div>
             <h3>Benefits to the Community:</h3>
-            <div className='mb-5'>
+            <div className="mb-5">
               <h5>1: Cultural Enrichment:</h5>
 
               <p>
@@ -74,7 +74,7 @@ const AmphitheatreSpace = () => {
               </p>
             </div>
 
-            <div className='mb-5'>
+            <div className="mb-5">
               <h5>2: Entertainment For All Ages:</h5>
 
               <p>
@@ -85,7 +85,7 @@ const AmphitheatreSpace = () => {
               </p>
             </div>
 
-            <div className='mb-5'>
+            <div className="mb-5">
               <h5>3: Community Unity: </h5>
 
               <p>
@@ -94,7 +94,7 @@ const AmphitheatreSpace = () => {
                 experiences.
               </p>
             </div>
-            <div className='mb-5'>
+            <div className="mb-5">
               <h5>4:Inspiration Aspiration: </h5>
 
               <p>
@@ -104,7 +104,7 @@ const AmphitheatreSpace = () => {
               </p>
             </div>
 
-            <div className='mb-5'>
+            <div className="mb-5">
               <h5>The Heart of Art and Entertainment</h5>
 
               <p>

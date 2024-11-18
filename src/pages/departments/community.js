@@ -6,46 +6,46 @@ const community = () => {
       <>
         <>
           {/* Hero */}
-          <div className='bg-soft-warning overflow-hidden'>
-            <div className='container content-space-1 content-space-t-md-2'>
-              <div className='w-lg-75 mx-lg-auto'>
+          <div className="bg-soft-warning overflow-hidden">
+            <div className="container content-space-1 content-space-t-md-2">
+              <div className="w-lg-75 mx-lg-auto">
                 {/* Heading */}
-                <div className='text-center'>
-                  <h1 className='display-4 text-primary'>
-                    Community <span className='text-warning'>Department</span>
+                <div className="text-center">
+                  <h1 className="display-4 text-primary">
+                    Community <span className="text-warning">Department</span>
                   </h1>
-                  <p className='lead'>Tujenge Pamoja, Tufanye Tofauti</p>
+                  <p className="lead">Tujenge Pamoja, Tufanye Tofauti</p>
                 </div>
                 {/* End Heading */}
               </div>
             </div>
-            <div className='container-fluid position-relative px-lg-7'>
-              <div className='mb-5'>
+            <div className="container-fluid position-relative px-lg-7">
+              <div className="mb-5">
                 <img
-                  className='img-fluid'
-                  src='../assets/img/community.jpg'
-                  alt='Image Description'
+                  className="img-fluid"
+                  src="../assets/img/community.jpg"
+                  alt="Image Description"
                 />
               </div>
               {/* Background Shapes */}
               <div
-                className='position-absolute zi-n1'
+                className="position-absolute zi-n1"
                 style={{ top: '-6rem', left: '-6rem' }}
               >
                 <img
-                  src='../assets/svg/components/shape-1.svg'
-                  alt='SVG'
+                  src="../assets/svg/components/shape-1.svg"
+                  alt="SVG"
                   width={500}
                   style={{ width: '12rem' }}
                 />
               </div>
               <div
-                className='position-absolute zi-n1'
+                className="position-absolute zi-n1"
                 style={{ bottom: '-6rem', right: '-7rem' }}
               >
                 <img
-                  src='../assets/svg/components/shape-7.svg'
-                  alt='SVG'
+                  src="../assets/svg/components/shape-7.svg"
+                  alt="SVG"
                   width={250}
                 />
               </div>
@@ -55,22 +55,22 @@ const community = () => {
           {/* End Hero */}
         </>
 
-        <div className='container mt-6'>
-          <div className='row align-items-md-center'>
-            <div className='col-md-6 order-md-2 mb-5 mb-md-0'>
-              <div className='ps-md-5'>
+        <div className="container mt-6">
+          <div className="row align-items-md-center">
+            <div className="col-md-6 order-md-2 mb-5 mb-md-0">
+              <div className="ps-md-5">
                 {/* Heading */}
-                <div className='mb-7'>
+                <div className="mb-7">
                   <h3>Platform for Expression</h3>
                 </div>
                 {/* End Heading */}
-                <div className='d-grid gap-3'>
+                <div className="d-grid gap-3">
                   {/* Info Block */}
-                  <div className='d-flex'>
-                    <div className='flex-shrink-0'>
-                      <span className='svg-icon svg-icon-sm text-primary'></span>
+                  <div className="d-flex">
+                    <div className="flex-shrink-0">
+                      <span className="svg-icon svg-icon-sm text-primary"></span>
                     </div>
-                    <div className='flex-grow-1'>
+                    <div className="flex-grow-1">
                       <p>
                         We believe in providing a platform for every individual
                         to express their thoughts, ideas, and opinions. We value
@@ -89,11 +89,11 @@ const community = () => {
               </div>
             </div>
             {/* End Col */}
-            <div className='col-md-6'>
+            <div className="col-md-6">
               <img
-                className='img-fluid'
-                src='../assets/img/img00.jpg'
-                alt='Image Description'
+                className="img-fluid"
+                src="../assets/img/img00.jpg"
+                alt="Image Description"
               />
             </div>
             {/* End Col */}
@@ -102,34 +102,34 @@ const community = () => {
         </div>
         {/* End Features */}
         {/* Features */}
-        <div className='container content-space-1'>
-          <div className='row align-items-md-center'>
-            <div className='col-md-6 mb-5 mb-md-0'>
-              <div className='pe-md-5'>
+        <div className="container content-space-1">
+          <div className="row align-items-md-center">
+            <div className="col-md-6 mb-5 mb-md-0">
+              <div className="pe-md-5">
                 {/* Heading */}
-                <div className='mb-7'>
+                <div className="mb-7">
                   <h3>Love, Unity, and Coexistence</h3>
                 </div>
                 {/* End Heading */}
-                <div className='d-grid gap-3'>
+                <div className="d-grid gap-3">
                   {/* Info Block */}
-                  <div className='d-flex'>
-                    <div className='flex-shrink-0'></div>
+                  <div className="d-flex">
+                    <div className="flex-shrink-0"></div>
                   </div>
 
-                  <div className='d-flex'>
-                    <div className='flex-shrink-0'>
-                      <span className='svg-icon svg-icon-sm text-primary'></span>
+                  <div className="d-flex">
+                    <div className="flex-shrink-0">
+                      <span className="svg-icon svg-icon-sm text-primary"></span>
                     </div>
-                    <div className='flex-grow-1 ms-4'></div>
+                    <div className="flex-grow-1 ms-4"></div>
                   </div>
                   {/* End Info Block */}
                   {/* Info Block */}
-                  <div className='d-flex'>
-                    <div className='flex-shrink-0'>
-                      <span className='svg-icon svg-icon-sm text-primary'></span>
+                  <div className="d-flex">
+                    <div className="flex-shrink-0">
+                      <span className="svg-icon svg-icon-sm text-primary"></span>
                     </div>
-                    <div className='flex-grow-1'>
+                    <div className="flex-grow-1">
                       <p>
                         At the core of our community lies our commitment to
                         love, unity, and peaceful coexistence. We strongly
@@ -146,33 +146,33 @@ const community = () => {
               </div>
             </div>
             {/* End Col */}
-            <div className='col-md-6'>
+            <div className="col-md-6">
               <img
-                className='img-fluid'
-                src='../assets/img/img01.jpg'
-                alt='Image Description'
+                className="img-fluid"
+                src="../assets/img/img01.jpg"
+                alt="Image Description"
               />
             </div>
           </div>
           {/* End Row */}
         </div>
         {/* End Features */}
-        <div className='container mb-6 mb-5'>
-          <div className='row align-items-md-center'>
-            <div className='col-md-6 order-md-2 mb-5 mb-md-0'>
-              <div className='ps-md-5'>
+        <div className="container mb-6 mb-5">
+          <div className="row align-items-md-center">
+            <div className="col-md-6 order-md-2 mb-5 mb-md-0">
+              <div className="ps-md-5">
                 {/* Heading */}
-                <div className='mb-7'>
+                <div className="mb-7">
                   <h3>People-Powered Community</h3>
                 </div>
                 {/* End Heading */}
-                <div className='d-grid gap-3'>
+                <div className="d-grid gap-3">
                   {/* Info Block */}
-                  <div className='d-flex'>
-                    <div className='flex-shrink-0'>
-                      <span className='svg-icon svg-icon-sm text-primary'></span>
+                  <div className="d-flex">
+                    <div className="flex-shrink-0">
+                      <span className="svg-icon svg-icon-sm text-primary"></span>
                     </div>
-                    <div className='flex-grow-1'>
+                    <div className="flex-grow-1">
                       <p>
                         Swahilipot Hub is not just a physical building; it is
                         the people who make up our community. Each and every
@@ -197,11 +197,11 @@ const community = () => {
               </div>
             </div>
             {/* End Col */}
-            <div className='col-md-6 mb-5'>
+            <div className="col-md-6 mb-5">
               <img
-                className='img-fluid'
-                src='../assets/img/img20.jpg'
-                alt='Image Description'
+                className="img-fluid"
+                src="../assets/img/img20.jpg"
+                alt="Image Description"
               />
             </div>
             {/* End Col */}

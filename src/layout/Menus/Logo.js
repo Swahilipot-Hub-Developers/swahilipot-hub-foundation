@@ -4,15 +4,13 @@ import Link from 'next/link'
 //import Image from 'next/image'
 
 const Logo = () => {
-
-  
   return (
-    <Link href='/' legacyBehavior>
-      <a className='navbar-brand' aria-label='Space'>
+    <Link href="/" legacyBehavior>
+      <a className="navbar-brand" aria-label="Space">
         <img
-          className='navbar-brand-logo'
-          src='/logo/logo.png'
-          alt='Swahilipot Hub Logo'
+          className="navbar-brand-logo"
+          src="/logo/logo.png"
+          alt="Swahilipot Hub Logo"
           width={300}
           height={30}
         />

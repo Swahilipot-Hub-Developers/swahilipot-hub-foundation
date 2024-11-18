@@ -9,10 +9,10 @@ const WorkWithUs = () => {
       {/* career navigation */}
       <InnerNav />
       {/* content */}
-      <div className='container content-space-2'>
-        <div className='w-lg-75 mx-lg-auto'>
+      <div className="container content-space-2">
+        <div className="w-lg-75 mx-lg-auto">
           {/* Tab Content */}
-          <div className='tab-content' id='careersTabContent'>
+          <div className="tab-content" id="careersTabContent">
             <RoleDescription />
           </div>
           {/* End Tab Content */}

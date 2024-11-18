@@ -4,17 +4,17 @@ const SwahilipotPillar = () => {
   return (
     <>
       {/* Swahilipot Pillars */}
-      <div className='bg-soft-success p-2'>
-        <div className='w-lg-65 text-center mt-4 mx-lg-auto mb-7'>
+      <div className="bg-soft-success p-2">
+        <div className="w-lg-65 text-center mt-4 mx-lg-auto mb-7">
           <h3>Programs and Activities</h3>
         </div>
-        <div className='position-relative'>
-          <div className='container content-space-1 content-space-md-3'>
-            <div className='row'>
-              <div className='col-md-7'>
-                <div className='row'>
-                  <div className='col-sm-6 mb-3'>
-                    <div className='pe-md-3'>
+        <div className="position-relative">
+          <div className="container content-space-1 content-space-md-3">
+            <div className="row">
+              <div className="col-md-7">
+                <div className="row">
+                  <div className="col-sm-6 mb-3">
+                    <div className="pe-md-3">
                       <h5>Technology and Innovation</h5>
                       <p>
                         Pwani Innovation Week: Showcasing coastal Kenya's
@@ -27,8 +27,8 @@ const SwahilipotPillar = () => {
                     </div>
                   </div>
                   {/* End Col */}
-                  <div className='col-sm-6 mb-3'>
-                    <div className='pe-md-3'>
+                  <div className="col-sm-6 mb-3">
+                    <div className="pe-md-3">
                       <h5>Entrepreneurship</h5>
                       <p>
                         Pitching Thursday offers a platform for entrepreneurs to
@@ -44,9 +44,9 @@ const SwahilipotPillar = () => {
                   {/* End Col */}
                 </div>
                 {/* End Row */}
-                <div className='row'>
-                  <div className='col-sm-6 mb-3 mb-sm-0'>
-                    <div className='pe-md-3'>
+                <div className="row">
+                  <div className="col-sm-6 mb-3 mb-sm-0">
+                    <div className="pe-md-3">
                       <h5>Creatives and Arts</h5>
                       <p>
                         Pwani Gat Talent offers local artists a platform to
@@ -59,8 +59,8 @@ const SwahilipotPillar = () => {
                     </div>
                   </div>
                   {/* End Col */}
-                  <div className='col-sm-6'>
-                    <div className='pe-md-3'>
+                  <div className="col-sm-6">
+                    <div className="pe-md-3">
                       <h5>Heritage</h5>
                       <p>
                         MoHoA preserves and celebrates modern African cultural
@@ -82,17 +82,17 @@ const SwahilipotPillar = () => {
           </div>
           {/* Image */}
           <div
-            className='d-none d-md-block col-md-5 position-absolute top-0 end-0 bg-img-center h-100'
+            className="d-none d-md-block col-md-5 position-absolute top-0 end-0 bg-img-center h-100"
             style={{
               backgroundImage:
                 'url(https://res.cloudinary.com/swahilipothubdev/image/upload/v1685538638/website%20images/DSC_8923_kkn3au.jpg)',
             }}
           />
-          <div className='d-md-none'>
+          <div className="d-md-none">
             <img
-              className='img-fluid'
-              src='https://res.cloudinary.com/swahilipothubdev/image/upload/v1685538638/website%20images/DSC_8923_kkn3au.jpg'
-              alt='Image Description'
+              className="img-fluid"
+              src="https://res.cloudinary.com/swahilipothubdev/image/upload/v1685538638/website%20images/DSC_8923_kkn3au.jpg"
+              alt="Image Description"
             />
           </div>
           {/* End Image */}

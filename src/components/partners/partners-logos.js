@@ -1,6 +1,6 @@
-import Image from "next/image";
-import partners from "@/data/partners.json";
-import Slider from "react-slick";
+import Image from 'next/image'
+import partners from '@/data/partners.json'
+import Slider from 'react-slick'
 
 const PartnersSection = () => {
   const settings = {
@@ -31,7 +31,7 @@ const PartnersSection = () => {
         },
       },
     ],
-  };
+  }
 
   return (
     <div className="container pb-5">
@@ -52,7 +52,7 @@ const PartnersSection = () => {
         ))}
       </Slider>
     </div>
-  );
-};
+  )
+}
 
-export default PartnersSection;
+export default PartnersSection

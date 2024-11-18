@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
   }, [])
 
   return (
-    <Layout className='p-x-9'>
+    <Layout className="p-x-9">
       <Component {...pageProps} />
       <Analytics />
     </Layout>

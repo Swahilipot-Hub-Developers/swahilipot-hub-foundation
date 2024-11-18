@@ -8,10 +8,10 @@ const TeamImg = ({ imgSrc, name, title }) => {
           src={imgSrc}
           height={100}
           width={100}
-          alt='Member image'
-          className='rounded-circle'
+          alt="Member image"
+          className="rounded-circle"
         />
-        <h3 className='fw-bold'>{name}</h3>
+        <h3 className="fw-bold">{name}</h3>
         <p>{title}</p>
       </div>
     </>

@@ -10,28 +10,28 @@ const image5 = '/images/youngbusiness/image5.jpg'
 // hero sections
 const Hero = ({ name }) => {
   return (
-    <div className='bg-soft-primary-light position-relative py-4 py-md-0'>
-      <div className='container'>
+    <div className="bg-soft-primary-light position-relative py-4 py-md-0">
+      <div className="container">
         <div
-          className='d-none d-md-block col-md-6 position-absolute top-0 end-0 bg-img-center h-100'
+          className="d-none d-md-block col-md-6 position-absolute top-0 end-0 bg-img-center h-100"
           style={{ backgroundImage: 'url(/images/youngbusiness/image1.jpg)' }}
         />
-        <div className='d-md-none mb-5 mb-md-0'>
-          <img className='img-fluid' src={image4} alt='Image Description' />
+        <div className="d-md-none mb-5 mb-md-0">
+          <img className="img-fluid" src={image4} alt="Image Description" />
         </div>
-        <div className='row align-items-md-center content-space-md-3'>
-          <div className='col-md-6'>
-            <div className='pe-lg-3'>
-              <div className='mb-5'>
+        <div className="row align-items-md-center content-space-md-3">
+          <div className="col-md-6">
+            <div className="pe-lg-3">
+              <div className="mb-5">
                 <Logo width={100} height={50} />
               </div>
-              <h1 className='h2 mb-3 mb-md-5 text-capitalize'>{name}</h1>
+              <h1 className="h2 mb-3 mb-md-5 text-capitalize">{name}</h1>
             </div>
           </div>
           {/* End Col */}
-          <div className='col-md-4 align-self-md-end position-relative z-1'>
+          <div className="col-md-4 align-self-md-end position-relative z-1">
             <div
-              className='d-none d-md-block transform-0'
+              className="d-none d-md-block transform-0"
               style={{
                 marginBottom: '-12rem',
                 marginLeft: '-3rem',
@@ -39,11 +39,11 @@ const Hero = ({ name }) => {
               }}
             >
               <img
-                className='img-fluid'
-                src='/images/youngbusiness/image4.jpg'
+                className="img-fluid"
+                src="/images/youngbusiness/image4.jpg"
                 height={600}
                 width={600}
-                alt='Image Description'
+                alt="Image Description"
               />
             </div>
           </div>
@@ -59,11 +59,11 @@ const Hero = ({ name }) => {
 const CallToAction = () => {
   return (
     <div>
-      <div className='bg-soft-success p-4 pb-sm-0 pe-sm-0 pt-sm-5 ps-sm-7'>
-        <div className='position-relative overflow-hidden'>
-          <div className='row justify-content-lg-between'>
-            <div className='col-sm-6 py-5 pb-sm-10'>
-              <div className='mb-5'>
+      <div className="bg-soft-success p-4 pb-sm-0 pe-sm-0 pt-sm-5 ps-sm-7">
+        <div className="position-relative overflow-hidden">
+          <div className="row justify-content-lg-between">
+            <div className="col-sm-6 py-5 pb-sm-10">
+              <div className="mb-5">
                 {/* <h3>We are design changers</h3> */}
                 <p>
                   Welcome to the Young Business Executives Fellowship journey! A
@@ -82,24 +82,24 @@ const CallToAction = () => {
                 </p>
               </div>
               <a
-                className='btn btn-outline-primary'
-                href='https://docs.google.com/document/u/0/d/1xwJlAg-5Ob0ByteUjmEBp-otdrTtwtx6qq70ph68BSI/mobilebasic'
-                target='_blank'
+                className="btn btn-outline-primary"
+                href="https://docs.google.com/document/u/0/d/1xwJlAg-5Ob0ByteUjmEBp-otdrTtwtx6qq70ph68BSI/mobilebasic"
+                target="_blank"
               >
                 View The Program
               </a>
             </div>
             {/* End Col */}
-            <div className='col-sm-6 col-lg-5 d-none d-sm-block'>
+            <div className="col-sm-6 col-lg-5 d-none d-sm-block">
               {/* Devices */}
-              <div className='devices position-absolute top-0 start-50'>
+              <div className="devices position-absolute top-0 start-50">
                 {/* Browser Device */}
-                <figure className='device-browser-frame rotated-3d-left'>
-                  <div className='device-browser-frame'>
+                <figure className="device-browser-frame rotated-3d-left">
+                  <div className="device-browser-frame">
                     <img
-                      className='device-browser-img'
-                      src='../assets/img/800x500/img5.jpg'
-                      alt='Image Description'
+                      className="device-browser-img"
+                      src="../assets/img/800x500/img5.jpg"
+                      alt="Image Description"
                     />
                   </div>
                 </figure>
@@ -107,16 +107,16 @@ const CallToAction = () => {
               </div>
               {/* End Devices */}
               {/* Devices */}
-              <div className='devices position-absolute top-0 start-50 mt-10 ms-5'>
+              <div className="devices position-absolute top-0 start-50 mt-10 ms-5">
                 {/* Browser Device */}
-                <figure className='device-browser-frame rotated-3d-left'>
-                  <div className='device-browser-frame'>
+                <figure className="device-browser-frame rotated-3d-left">
+                  <div className="device-browser-frame">
                     <img
-                      className='device-browser-img'
-                      src='/images/youngbusiness/image5.jpg'
+                      className="device-browser-img"
+                      src="/images/youngbusiness/image5.jpg"
                       height={800}
                       width={500}
-                      alt='Image Description'
+                      alt="Image Description"
                     />
                   </div>
                 </figure>

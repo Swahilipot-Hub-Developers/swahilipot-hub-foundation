@@ -4,47 +4,47 @@
 const communications = () => {
   return (
     <>
-      <div className='bg-soft-warning'>
-        <div className='container content-space-t-2 content-space-t-md-3 content-space-b-1'>
+      <div className="bg-soft-warning">
+        <div className="container content-space-t-2 content-space-t-md-3 content-space-b-1">
           {/* Heading */}
-          <div className='w-lg-75 text-center mx-lg-auto mb-7'>
-            <h1 className='display-3 text-primary'>
-              Communications <span className='text-warning'>Department</span>
+          <div className="w-lg-75 text-center mx-lg-auto mb-7">
+            <h1 className="display-3 text-primary">
+              Communications <span className="text-warning">Department</span>
             </h1>
-            <p className='lead'>Kujenga Mawasiliano, Kueneza Sauti</p>
+            <p className="lead">Kujenga Mawasiliano, Kueneza Sauti</p>
           </div>
 
-          <div className='text-center'>
+          <div className="text-center">
             <img
-              className='img-fluid'
-              src='../images/comms.svg'
-              alt='Image Description'
+              className="img-fluid"
+              src="../images/comms.svg"
+              alt="Image Description"
             />
           </div>
         </div>
       </div>
       {/* End Hero */}
       {/* Shape */}
-      <div className='shape-container'>
-        <div className='shape shape-bottom zi-1'>
+      <div className="shape-container">
+        <div className="shape shape-bottom zi-1">
           <svg
             width={3000}
             height={600}
-            viewBox='0 0 3000 600'
-            fill='none'
-            xmlns='http://www.w3.org/2000/svg'
+            viewBox="0 0 3000 600"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <path d='M0 600H3000V0L0 600Z' fill='#fff' />
+            <path d="M0 600H3000V0L0 600Z" fill="#fff" />
           </svg>
         </div>
       </div>
       {/* End Shape */}
       {/* Description */}
-      <div className='container content-space-b-1 content-space-b-md-3'>
-        <div className='row justify-content-lg-center'>
-          <div className='col-lg-8'>
-            <figure className='mb-3'>
-              <blockquote className='blockquote'>
+      <div className="container content-space-b-1 content-space-b-md-3">
+        <div className="row justify-content-lg-center">
+          <div className="col-lg-8">
+            <figure className="mb-3">
+              <blockquote className="blockquote">
                 Creating an Inclusive Community
               </blockquote>
             </figure>
@@ -71,7 +71,7 @@ const communications = () => {
               members, as collaboration often leads to incredible achievements.
             </p>
 
-            <div className='mb-5'>
+            <div className="mb-5">
               <h5>Collaboration and Partnerships</h5>
               <p>
                 Remember, Swahilipot Hub is not just a physical building; it is
@@ -90,7 +90,7 @@ const communications = () => {
                 unlock the full potential of our diverse community.
               </p>
             </div>
-            <div className='mb-5'>
+            <div className="mb-5">
               <h5>Personal and Professional Development</h5>
               <p>
                 At Swahilipot Hub, we prioritize the personal and professional

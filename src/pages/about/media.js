@@ -72,11 +72,11 @@ const imageStyle = {
 const Media = () => {
   return (
     <div>
-      <section className='text-center container'>
-        <h5 className='display-4 text-primary m-5 text-center'>Media</h5>
-        <div className='row justify-content-sm-center'>
-          <div className='text-center mb-7 col-md-8 col-lg-7'>
-            <p className='text-muted'>
+      <section className="text-center container">
+        <h5 className="display-4 text-primary m-5 text-center">Media</h5>
+        <div className="row justify-content-sm-center">
+          <div className="text-center mb-7 col-md-8 col-lg-7">
+            <p className="text-muted">
               Welcome to our Media page, where the visual stories of Swahilipot
               Hub come to life. Here, we capture the essence of creativity,
               collaboration, and innovation, as we celebrate the remarkable
@@ -86,24 +86,24 @@ const Media = () => {
         </div>
       </section>
 
-      <div className='album py-5 bg-body-tertiary'>
-        <div className='container'>
-          <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
+      <div className="album py-5 bg-body-tertiary">
+        <div className="container">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             {images.map((image, index) => (
-              <div className='col' key={index}>
-                <div className='card shadow-sm'>
+              <div className="col" key={index}>
+                <div className="card shadow-sm">
                   <div>
                     <Image
-                      className='bd-placeholder-img card-img-top'
+                      className="bd-placeholder-img card-img-top"
                       src={image}
                       alt={`Image ${index + 1}`}
                       width={345}
                       height={240}
                       style={imageStyle}
-                      onMouseOver={e => {
+                      onMouseOver={(e) => {
                         e.currentTarget.style.transform = 'scale(1.1)'
                       }}
-                      onMouseOut={e => {
+                      onMouseOut={(e) => {
                         e.currentTarget.style.transform = 'scale(1)'
                       }}
                     />

@@ -17,7 +17,6 @@ import Upcoming from '@/components/landing/Upcoming'
 
 // import Attachment from '@/components/landing/Attachment'
 
-
 const Landing = () => {
   return (
     <>
@@ -31,7 +30,7 @@ const Landing = () => {
       <Upcoming />
       <CaseManagement />
       <CorePillars />
-      <Events/>
+      <Events />
       <SpacesCard />
       <Partners />
       <Numbers />

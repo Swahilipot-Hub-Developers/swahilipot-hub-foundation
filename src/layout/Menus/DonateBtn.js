@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 const DonateBtn = () => {
   return (
@@ -21,16 +21,16 @@ const DonateBtn = () => {
           background-color: inherit;
           border-radius: 100px;
           font-weight: 800;
-          color: #A0153E;
-          box-shadow: 0 0 0 2px #A0153E;
+          color: #a0153e;
+          box-shadow: 0 0 0 2px #a0153e;
           cursor: pointer;
           overflow: hidden;
           transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
           width: 100%;
         }
 
-        @media only screen and (max-width: 768px){
-          .animated-button{
+        @media only screen and (max-width: 768px) {
+          .animated-button {
             width: 50%;
           }
         }
@@ -38,7 +38,7 @@ const DonateBtn = () => {
         .animated-button .circle {
           width: 20px;
           height: 20px;
-          background-color: #A0153E;
+          background-color: #a0153e;
           color: #fff;
           border-radius: 50%;
           opacity: 0;
@@ -54,7 +54,7 @@ const DonateBtn = () => {
 
         .animated-button:hover .text {
           transform: translateX(12px);
-          color: #ffffff; 
+          color: #ffffff;
         }
 
         .animated-button:hover .circle {
@@ -65,12 +65,12 @@ const DonateBtn = () => {
 
         .animated-button:active {
           scale: 0.95;
-          box-shadow: 0 0 0 4px #A0153E;
+          box-shadow: 0 0 0 4px #a0153e;
           color: #ffffff;
         }
       `}</style>
     </li>
-  );
-};
+  )
+}
 
-export default DonateBtn;
+export default DonateBtn

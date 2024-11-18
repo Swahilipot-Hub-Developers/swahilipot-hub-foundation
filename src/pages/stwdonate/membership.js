@@ -4,8 +4,6 @@ import axios from 'axios'
 import MemberShipForm from '@/components/stw/MemberShipForm'
 import MembershipHero from '@/components/stw/MembershipHero'
 
-
-
 const Membership = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -18,7 +16,7 @@ const Membership = () => {
     terms_and_conditions: false,
   })
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     const { name, value, type, checked } = e.target
     setFormData({
       ...formData,
@@ -26,11 +24,10 @@ const Membership = () => {
     })
   }
 
-  const handleSubmit = async e => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     try {
       const response = await axios.post(
-
         `${process.env.NEXT_PUBLIC_BASE_URL}${process.env.NEXT_PUBLIC_MEMBERSHIPS}`,
 
         formData

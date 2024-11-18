@@ -7,21 +7,21 @@ const AboutMenu = () => {
 
   return (
     <NavDropdown
-      title='About Swahilipot'
-      id='blogMegaMenu'
-      className='nav-item'
+      title="About Swahilipot"
+      id="blogMegaMenu"
+      className="nav-item"
       show={isHovered}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Link href='/about' legacyBehavior>
-        <NavDropdown.Item as='a'>About Us</NavDropdown.Item>
+      <Link href="/about" legacyBehavior>
+        <NavDropdown.Item as="a">About Us</NavDropdown.Item>
       </Link>
-      <Link href='/contact' legacyBehavior>
-        <NavDropdown.Item as='a'>Contact Us</NavDropdown.Item>
+      <Link href="/contact" legacyBehavior>
+        <NavDropdown.Item as="a">Contact Us</NavDropdown.Item>
       </Link>
-      <Link href='/about/origin' legacyBehavior>
-        <NavDropdown.Item as='a'>Our Origin Story</NavDropdown.Item>
+      <Link href="/about/origin" legacyBehavior>
+        <NavDropdown.Item as="a">Our Origin Story</NavDropdown.Item>
       </Link>
       {/* <Link href="/about/sponsors" legacyBehavior>
         <NavDropdown.Item as="a">Our Partners</NavDropdown.Item>

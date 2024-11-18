@@ -5,10 +5,10 @@ const Origin = () => {
   return (
     <>
       {/* Description */}
-      <div className='container content-space-1'>
-        <div className='w-lg-75 mx-lg-auto'>
-          <div className='mb-4'>
-            <h2 className='h4'>How did Swahilipot Hub came to be?</h2>
+      <div className="container content-space-1">
+        <div className="w-lg-75 mx-lg-auto">
+          <div className="mb-4">
+            <h2 className="h4">How did Swahilipot Hub came to be?</h2>
             <p>
               Why are all technology, innovation, and incubation hubs based in
               Nairobi? Nairobi is not Kenya and Kenya is not Nairobi. Something
@@ -29,21 +29,21 @@ const Origin = () => {
             </p>
           </div>
           <h4>Timeline</h4>
-          <ul className='list-py-1'>
+          <ul className="list-py-1">
             <li>
-              <span className='fw-bold'>2016:</span> Swahilipot Hub founded as a
+              <span className="fw-bold">2016:</span> Swahilipot Hub founded as a
               community-based organization (CBO) with programs/activities
               focused on technology and innovation.
             </li>
             <li>
-              <span className='fw-bold'>2017:</span> The ambitions of Swahilipot
+              <span className="fw-bold">2017:</span> The ambitions of Swahilipot
               Hub grows and upgrades from a community-based organization (CBO)
               to a Non-Governmental Organization (NGO) regulated by the The
               Non-Governmental Organizations Co-ordination Board of Kenya. The
               official name becomes Swahilipot Hub Foundation.
             </li>
             <li>
-              <span className='fw-bold'>2018:</span> SSwahilipot Hub hosts the
+              <span className="fw-bold">2018:</span> SSwahilipot Hub hosts the
               first edition of Pwani Innovation Week, its first major activity
               focused on promoting technology and innovation in the Coastal
               region of Kenya. On the last day of PIW, Swahilipot hosts Pwani
@@ -51,7 +51,7 @@ const Origin = () => {
               coastal region of Kenya.
             </li>
             <li>
-              <span className='fw-bold'>2021:</span> Swahilipot Hub Foundation
+              <span className="fw-bold">2021:</span> Swahilipot Hub Foundation
               becomes the anchor partner for the Global Opportunity Youth
               Network (GOYN) in Mombasa and secures its first grant as an NGO.
               GOYN is a multi-stakeholder initiative that seeks to create
@@ -63,7 +63,7 @@ const Origin = () => {
               volunteer-led and run to hiring full-time staff on payroll.
             </li>
             <li>
-              <span className='fw-bold'>2022:</span> Swahilipot Hub Foundation
+              <span className="fw-bold">2022:</span> Swahilipot Hub Foundation
               hosts the Modern Heritage of Africa (MoHoA) workshop, its first
               major event under the program area of heritage. Hosted in a hybrid
               format (in-person at Swahilipot Hub and virtual), it brought
@@ -73,7 +73,7 @@ const Origin = () => {
               ICOMOS, IUCN, and UNESCO
             </li>
             <li>
-              <span className='fw-bold'>2023:</span> Swahilipot Hub Foundation
+              <span className="fw-bold">2023:</span> Swahilipot Hub Foundation
               gets certified as being equivalent to a Certified Public Charity
               in the United States of America. This means that US grantmakers
               can fund Swahilipot directly.

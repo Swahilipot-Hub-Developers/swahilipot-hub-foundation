@@ -8,7 +8,6 @@ const about = () => {
       <Hero />
       <Mission />
       <Vission />
-     
     </>
   )
 }

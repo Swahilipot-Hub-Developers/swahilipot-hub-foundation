@@ -10,7 +10,7 @@ const SubscriberForm = () => {
     email: '',
   })
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     const { name, value } = e.target
     setFormData({
       ...formData,
@@ -18,14 +18,14 @@ const SubscriberForm = () => {
     })
   }
 
-  const handleSubmit = async e => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     try {
       const response = await axios.post(
-          `${process.env.NEXT_PUBLIC_BASE_URL}${process.env.NEXT_PUBLIC_SUBSCRIBERS_FORM}`,
+        `${process.env.NEXT_PUBLIC_BASE_URL}${process.env.NEXT_PUBLIC_SUBSCRIBERS_FORM}`,
         formData
       )
-    //   console.log(response.data)
+      //   console.log(response.data)
       // Clear form data after successful submission
       setFormData({
         name: '',
@@ -40,50 +40,51 @@ const SubscriberForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className='mb-4'>
-        <label className='form-label' htmlFor='registerName'>
+      <div className="mb-4">
+        <label className="form-label" htmlFor="registerName">
           Your name
         </label>
         <input
-          type='text'
-          className='form-control form-control-lg'
-          name='name'
-          id='registerName'
-          placeholder='Type your name'
-          aria-label='Type your name'
+          type="text"
+          className="form-control form-control-lg"
+          name="name"
+          id="registerName"
+          placeholder="Type your name"
+          aria-label="Type your name"
           required
-          data-msg='Please enter your name.'
+          data-msg="Please enter your name."
           value={formData.name}
           onChange={handleChange}
         />
       </div>
 
-      <div className='mb-4'>
-        <label className='form-label' htmlFor='registerEmail'>
+      <div className="mb-4">
+        <label className="form-label" htmlFor="registerEmail">
           Your email
         </label>
         <input
-          type='email'
-          className='form-control form-control-lg'
-          name='email'
-          id='registerEmail'
-          placeholder='example@site.com'
-          aria-label='example@site.com'
+          type="email"
+          className="form-control form-control-lg"
+          name="email"
+          id="registerEmail"
+          placeholder="example@site.com"
+          aria-label="example@site.com"
           required
-          data-msg='Please enter a valid email address.'
+          data-msg="Please enter a valid email address."
           value={formData.email}
           onChange={handleChange}
         />
       </div>
 
-      <div className='d-grid text-center'>
-        <button type='submit' className='btn btn-primary btn-lg'>
+      <div className="d-grid text-center">
+        <button type="submit" className="btn btn-primary btn-lg">
           SUBMIT
         </button>
-        <span className='form-text'>
+        <span className="form-text">
           Need help?{' '}
-          <a className='link' href='../contact'>
-            Visit our Help Center <i className='bi-chevron-right small ms-1'></i>
+          <a className="link" href="../contact">
+            Visit our Help Center{' '}
+            <i className="bi-chevron-right small ms-1"></i>
           </a>
         </span>
       </div>

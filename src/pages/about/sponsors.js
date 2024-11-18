@@ -24,11 +24,11 @@ const sponsors = [
 const SponsorsPage = () => {
   return (
     <>
-      <h5 className='display-4 text-primary m-5 text-center'>Our Partners</h5>
-      <div className='container py-4'>
-        <div className='row logos justify-content-center'>
+      <h5 className="display-4 text-primary m-5 text-center">Our Partners</h5>
+      <div className="container py-4">
+        <div className="row logos justify-content-center">
           {sponsors.map((sponsor, index) => (
-            <div key={index} className='logo-item col-6 col-md-12 col-lg-4'>
+            <div key={index} className="logo-item col-6 col-md-12 col-lg-4">
               <div
                 style={{
                   display: 'flex',
@@ -41,12 +41,12 @@ const SponsorsPage = () => {
                   alt={sponsor.name}
                   width={sponsor.width}
                   height={sponsor.height}
-                  className='img-fluid'
+                  className="img-fluid"
                 />
                 <a
                   href={sponsor.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={
                     sponsor.name === 'Seacom'
                       ? { fontSize: '20px', marginTop: '15px' }

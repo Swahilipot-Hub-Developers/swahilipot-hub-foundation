@@ -6,7 +6,7 @@ const OriginStory = () => {
     <>
       <Hero />
       <Origin />
-      <div className='border-top mx-auto' style={{ maxWidth: '25rem' }} />
+      <div className="border-top mx-auto" style={{ maxWidth: '25rem' }} />
     </>
   )
 }

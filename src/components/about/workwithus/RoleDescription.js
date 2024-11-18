@@ -4,12 +4,12 @@ const RoleDescription = () => {
   return (
     <div>
       <div
-        className='tab-pane fade show active'
-        id='one'
-        role='tabpanel'
-        aria-labelledby='one-tab'
+        className="tab-pane fade show active"
+        id="one"
+        role="tabpanel"
+        aria-labelledby="one-tab"
       >
-        <div className='mb-5'>
+        <div className="mb-5">
           <p>
             In the past seven years, the Swahilipot Hub Foundation (SPH) has
             been dedicated to supporting youth in overcoming challenges and
@@ -25,7 +25,7 @@ const RoleDescription = () => {
           </p>
         </div>
 
-        <div className='mb-5'>
+        <div className="mb-5">
           <p>
             Currently, the Swahilipot Hub Foundation is actively searching for a
             highly skilled and experienced individual to lead the designing of a
@@ -40,11 +40,11 @@ const RoleDescription = () => {
           </p>
         </div>
 
-        <div className='d-grid text-center mt-7'>
+        <div className="d-grid text-center mt-7">
           <a
-            className='js-apply-tab btn btn-primary btn-lg'
-            href='https://drive.google.com/file/d/1We7k1J1XLeD3kFaDYt58d7Wpz-uSv3vh/view'
-            target='_blank'
+            className="js-apply-tab btn btn-primary btn-lg"
+            href="https://drive.google.com/file/d/1We7k1J1XLeD3kFaDYt58d7Wpz-uSv3vh/view"
+            target="_blank"
           >
             Application Instructions
           </a>

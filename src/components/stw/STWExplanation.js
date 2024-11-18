@@ -3,14 +3,14 @@ import React from 'react'
 
 const STWExplanation = () => {
   return (
-    <div className='container'>
-      <div className='banner-end'>
-        <div className='row align-items-md-center'>
-          <div className='col-md-6 order-md-2'>
-            <div className='p-5 p-md-7'>
+    <div className="container">
+      <div className="banner-end">
+        <div className="row align-items-md-center">
+          <div className="col-md-6 order-md-2">
+            <div className="p-5 p-md-7">
               {/* Heading */}
-              <div className='mb-7'>
-                <span className='text-cap'>About Our Initiative</span>
+              <div className="mb-7">
+                <span className="text-cap">About Our Initiative</span>
                 <h4>
                   Hakuna kikwazo kinachoweza kusimama mbele ya ndoto zetu
                   zinazounganishwa na teknolojia.
@@ -28,12 +28,12 @@ const STWExplanation = () => {
             </div>
           </div>
           {/* End Col */}
-          <div className='col-md-6 content-space-md-1'>
-            <div className='w-85 w-md-100 mx-auto me-md-auto'>
+          <div className="col-md-6 content-space-md-1">
+            <div className="w-85 w-md-100 mx-auto me-md-auto">
               <img
-                className='img-fluid'
-                src='/stw/image-1.png'
-                alt='Image Description'
+                className="img-fluid"
+                src="/stw/image-1.png"
+                alt="Image Description"
               />
             </div>
           </div>

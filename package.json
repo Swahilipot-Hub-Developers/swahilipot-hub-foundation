@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write \"src/**/*.js\"",
+    "format:write": "prettier --write \"**/*.{js,jsx,mdx}\" --cache",
+    "format:check": "prettier --check \"**/*.{js,jsx,mdx}\" --cache",
     "lint": "next lint"
   },
   "dependencies": {

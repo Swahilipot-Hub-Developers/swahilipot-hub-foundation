@@ -66,12 +66,12 @@ const Team = () => {
 
   return (
     <div>
-      <div className='text-center mb-7'>
-        <h1 className='display-4 text-primary'>Meet the Team</h1>
+      <div className="text-center mb-7">
+        <h1 className="display-4 text-primary">Meet the Team</h1>
       </div>
-      <div className='container content-space-1'>
-        <div className='row mb-sm-5'>
-          {teamMembers.map(member => (
+      <div className="container content-space-1">
+        <div className="row mb-sm-5">
+          {teamMembers.map((member) => (
             <TeamCard
               key={member.name}
               imgSrc={member.imgSrc}

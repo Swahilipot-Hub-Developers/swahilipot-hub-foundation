@@ -5,38 +5,38 @@ const MentorshipDonation = () => {
     <div>
       <div>
         {/* Pricing */}
-        <div className='container'>
+        <div className="container">
           {/* Heading */}
-          <div className='w-lg-65 text-center mx-lg-auto mb-7'>
+          <div className="w-lg-65 text-center mx-lg-auto mb-7">
             <h3>Donate to Mentor a Women in Tech</h3>
           </div>
           {/* End Heading */}
           {/* Card Group */}
-          <div className='w-lg-85 shadow-lg rounded mx-lg-auto mb-7'>
-            <div className='row card-group-md-row card-group-md-3'>
-              <div className='col-md mb-3 mb-md-0'>
+          <div className="w-lg-85 shadow-lg rounded mx-lg-auto mb-7">
+            <div className="row card-group-md-row card-group-md-3">
+              <div className="col-md mb-3 mb-md-0">
                 {/* Card */}
-                <div className='card card-lg'>
-                  <div className='card-header text-center'>
-                    <div className='mb-2'>
-                      <span className='fs-5 align-top text-dark fw-bold'>
+                <div className="card card-lg">
+                  <div className="card-header text-center">
+                    <div className="mb-2">
+                      <span className="fs-5 align-top text-dark fw-bold">
                         KES
                       </span>
                       <span
-                        id='pricingCount1'
-                        className='fs-2 text-dark fw-bold'
+                        id="pricingCount1"
+                        className="fs-2 text-dark fw-bold"
                       >
                         10,000
                       </span>
                     </div>
-                    <h5 className='card-title'>
+                    <h5 className="card-title">
                       Full Mentorship Support Package
                     </h5>
-                    <p className='card-text'>A Packet of Pad</p>
+                    <p className="card-text">A Packet of Pad</p>
                   </div>
-                  <div className='card-body d-flex justify-content-center h-100 py-0'>
+                  <div className="card-body d-flex justify-content-center h-100 py-0">
                     {/* List Checked */}
-                    <p className='list-checked list-checked-primary'>
+                    <p className="list-checked list-checked-primary">
                       Your generous contribution will play a vital role in
                       empowering Swahili Tech Women's mission to mentor and
                       support women throughout the Pwani region. Your donation
@@ -48,16 +48,16 @@ const MentorshipDonation = () => {
                     </p>
                     {/* End List Checked */}
                   </div>
-                  <div className='card-footer text-center'>
+                  <div className="card-footer text-center">
                     {/* cta button */}
                     <a
-                      className='btn btn-primary'
-                      href='https://flutterwave.com/pay/4nvphchgpofl'
-                      target='_blank'
+                      className="btn btn-primary"
+                      href="https://flutterwave.com/pay/4nvphchgpofl"
+                      target="_blank"
                     >
                       Donate Now
                     </a>
-                    <small className='d-block text-muted'>
+                    <small className="d-block text-muted">
                       Not a recurring payment
                     </small>
                   </div>
@@ -65,26 +65,26 @@ const MentorshipDonation = () => {
                 {/* End Card */}
               </div>
               {/* End Col */}
-              <div className='col-md mb-3 mb-md-0'>
+              <div className="col-md mb-3 mb-md-0">
                 {/* Card */}
-                <div className='card card-lg'>
-                  <div className='card-header text-center'>
-                    <div className='mb-2'>
-                      <span className='fs-5 align-top text-dark fw-bold'>
+                <div className="card card-lg">
+                  <div className="card-header text-center">
+                    <div className="mb-2">
+                      <span className="fs-5 align-top text-dark fw-bold">
                         KES
                       </span>
                       <span
-                        id='pricingCount2'
-                        className='fs-2 text-dark fw-bold'
+                        id="pricingCount2"
+                        className="fs-2 text-dark fw-bold"
                       >
                         5000
                       </span>
                     </div>
-                    <h5 className='card-title'>
+                    <h5 className="card-title">
                       Half Mentorship Support Package
                     </h5>
                   </div>
-                  <div className='card-body d-flex justify-content-center h-100 py-0'>
+                  <div className="card-body d-flex justify-content-center h-100 py-0">
                     {/* List Checked */}
                     <p>
                       Your generous contribution will significantly contribute
@@ -97,43 +97,43 @@ const MentorshipDonation = () => {
                     </p>
                     {/* End List Checked */}
                   </div>
-                  <div className='card-footer text-center'>
+                  <div className="card-footer text-center">
                     {/* cta button */}
                     <a
-                      className='btn btn-primary'
-                      href='https://flutterwave.com/pay/wiqpywjiz2w5'
-                      target='_blank'
+                      className="btn btn-primary"
+                      href="https://flutterwave.com/pay/wiqpywjiz2w5"
+                      target="_blank"
                     >
                       Donate Now
                     </a>
-                    <small className='d-block text-muted'>
+                    <small className="d-block text-muted">
                       Not a recurring payment
                     </small>
                   </div>
                 </div>
                 {/* End Card */}
               </div>
-              <div className='col-12'>
+              <div className="col-12">
                 {/* Card */}
-                <div className='card card-lg card-divider'>
-                  <div className='card-body'>
-                    <div className='row'>
-                      <div className='col-sm mb-3 mb-sm-0'>
-                        <h5 className='card-title'>Custom Donation?</h5>
-                        <p className='card-text'>
+                <div className="card card-lg card-divider">
+                  <div className="card-body">
+                    <div className="row">
+                      <div className="col-sm mb-3 mb-sm-0">
+                        <h5 className="card-title">Custom Donation?</h5>
+                        <p className="card-text">
                           Check our Donation Button Above for a Custom Amount
                           Donation Option
                         </p>
                       </div>
                       {/* End Col */}
-                      <div className='col-sm-auto'>
+                      <div className="col-sm-auto">
                         <a
-                          className='btn btn-white'
-                          href='https://flutterwave.com/donate/moihmphwlo5o'
-                          target='_blank'
+                          className="btn btn-white"
+                          href="https://flutterwave.com/donate/moihmphwlo5o"
+                          target="_blank"
                         >
                           Donate Now
-                          <i className='bi-chevron-right small ms-2' />
+                          <i className="bi-chevron-right small ms-2" />
                         </a>
                       </div>
                       {/* End Col */}

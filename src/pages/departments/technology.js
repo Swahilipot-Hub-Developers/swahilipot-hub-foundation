@@ -3,55 +3,55 @@ const technology = () => {
   return (
     <>
       {/* Hero */}
-      <div className='bg-soft-warning'>
-        <div className='container content-space-t-2 content-space-t-md-3 content-space-b-1'>
+      <div className="bg-soft-warning">
+        <div className="container content-space-t-2 content-space-t-md-3 content-space-b-1">
           {/* Heading */}
-          <div className='w-lg-75 text-center mx-lg-auto mb-7'>
-            <h1 className='display-3 text-primary'>
-              Technology <span className='text-warning'>Department</span>
+          <div className="w-lg-75 text-center mx-lg-auto mb-7">
+            <h1 className="display-3 text-primary">
+              Technology <span className="text-warning">Department</span>
             </h1>
-            <p className='lead'>
+            <p className="lead">
               Kuwezesha Ustadi wa Teknolojia, Kukuza Vipaji
             </p>
           </div>
 
-          <div className='text-center'>
+          <div className="text-center">
             <img
-              className='img-fluid'
-              src='../images/tech.svg'
-              alt='Image Description'
+              className="img-fluid"
+              src="../images/tech.svg"
+              alt="Image Description"
             />
           </div>
         </div>
       </div>
       {/* Shape */}
-      <div className='shape-container'>
-        <div className='shape shape-bottom zi-1'>
+      <div className="shape-container">
+        <div className="shape shape-bottom zi-1">
           <svg
             width={3000}
             height={600}
-            viewBox='0 0 3000 600'
-            fill='none'
-            xmlns='http://www.w3.org/2000/svg'
+            viewBox="0 0 3000 600"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <path d='M0 600H3000V0L0 600Z' fill='#fff' />
+            <path d="M0 600H3000V0L0 600Z" fill="#fff" />
           </svg>
         </div>
       </div>
       {/* Description */}
-      <div className='container content-space-b-1 content-space-b-md-3'>
-        <div className='row justify-content-lg-center'>
-          <div className='col-lg-8'>
-            <figure className='mb-3'>
-              <blockquote className='blockquote'>
+      <div className="container content-space-b-1 content-space-b-md-3">
+        <div className="row justify-content-lg-center">
+          <div className="col-lg-8">
+            <figure className="mb-3">
+              <blockquote className="blockquote">
                 “ Empowering Young Individuals in Technology “
               </blockquote>
             </figure>
-            <div className='my-5'>
+            <div className="my-5">
               <img
-                className='img-fluid'
-                src='../images/comms-photo.jpg'
-                alt='Image Description'
+                className="img-fluid"
+                src="../images/comms-photo.jpg"
+                alt="Image Description"
               />
             </div>
             <div>

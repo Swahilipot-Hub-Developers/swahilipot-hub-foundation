@@ -5,26 +5,26 @@ const MetaTags = ({ name, mission, vision, description, image, url }) => {
     <Head>
       {/* Primary Meta Tags */}
       <title>{name}</title>
-      <meta name='title' content={name} />
-      <meta name='description' content={description} />
-      <meta name='mission' content={mission} />
-      <meta name='vision' content={vision} />
+      <meta name="title" content={name} />
+      <meta name="description" content={description} />
+      <meta name="mission" content={mission} />
+      <meta name="vision" content={vision} />
       <meta
-        name='keywords'
-        content='Community Space, Hub, Youth, Mombasa, Swahilipot'
+        name="keywords"
+        content="Community Space, Hub, Youth, Mombasa, Swahilipot"
       />
       {/* Open Graph / Facebook */}
-      <meta property='og:type' content='website' />
-      <meta property='og:url' content={url} />
-      <meta property='og:title' content={name} />
-      <meta property='og:description' content={description} />
-      <meta property='og:image' content={image} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={url} />
+      <meta property="og:title" content={name} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={image} />
       {/* Twitter */}
-      <meta property='twitter:card' content='summary_large_image' />
-      <meta property='twitter:url' content={url} />
-      <meta property='twitter:title' content={name} />
-      <meta property='twitter:description' content={description} />
-      <meta property='twitter:image' content={image} />
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content={url} />
+      <meta property="twitter:title" content={name} />
+      <meta property="twitter:description" content={description} />
+      <meta property="twitter:image" content={image} />
     </Head>
   )
 }

@@ -18,10 +18,10 @@ const Layout = ({ children }) => {
     <>
       <MetaTags />
       <Header />
-      <main id='content' role='main'>
+      <main id="content" role="main">
         {children}
       </main>
-      <PartnersSection/>
+      <PartnersSection />
       <Footer />
     </>
   )

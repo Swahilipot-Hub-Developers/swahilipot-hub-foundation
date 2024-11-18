@@ -4,11 +4,11 @@ const Logo = ({ width, height }) => {
   return (
     <>
       <Image
-        className='navbar-brand-logo'
-        src='/images/logo.png'
+        className="navbar-brand-logo"
+        src="/images/logo.png"
         width={width}
         height={height}
-        alt='SWahilipot Hub Logo'
+        alt="SWahilipot Hub Logo"
       />
     </>
   )

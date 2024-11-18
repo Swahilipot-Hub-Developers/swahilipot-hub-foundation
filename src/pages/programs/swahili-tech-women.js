@@ -10,11 +10,11 @@ const SwahiliTechWomen = () => {
       <STWHero />
       <STWExplanation />
       <Activities />
-      <div style={{ backgroundColor: '#fff' }} className='p-6'>
-        <div className='container '>
+      <div style={{ backgroundColor: '#fff' }} className="p-6">
+        <div className="container ">
           <section>
-            <section className='p-3'>
-              <div className='card m-2 p-5'>
+            <section className="p-3">
+              <div className="card m-2 p-5">
                 <figure>
                   <p>
                     The Swahili Tech Women Initiative is dedicated to empowering

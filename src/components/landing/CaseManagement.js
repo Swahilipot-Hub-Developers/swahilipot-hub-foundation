@@ -4,14 +4,14 @@ const CaseManagement = () => {
   return (
     <>
       {/* Features */}
-      <div className='container'>
-        <div className='banner-end'>
-          <div className='row align-items-md-center'>
-            <div className='col-md-6 order-md-2'>
-              <div className='p-5 p-md-7'>
+      <div className="container">
+        <div className="banner-end">
+          <div className="row align-items-md-center">
+            <div className="col-md-6 order-md-2">
+              <div className="p-5 p-md-7">
                 {/* Heading */}
-                <div className='mb-7'>
-                  <span className='text-cap'>Swahilipot Hub</span>
+                <div className="mb-7">
+                  <span className="text-cap">Swahilipot Hub</span>
                   <h3>Case Management Project</h3>
                   <p>
                     Our primary objective is to connect 60,000 youths in the
@@ -25,9 +25,9 @@ const CaseManagement = () => {
                 <p>
                   Learn{' '}
                   <a
-                    className='link'
-                    href='https://www.platform.swahilipothub.org/mentorship/'
-                    target='_blank'
+                    className="link"
+                    href="https://www.platform.swahilipothub.org/mentorship/"
+                    target="_blank"
                   >
                     more about the project here
                   </a>
@@ -35,9 +35,9 @@ const CaseManagement = () => {
                 <p>
                   You can Join in{' '}
                   <a
-                    className='link'
-                    href='https://www.platform.swahilipothub.org/accounts/register/casemanager'
-                    target='_blank'
+                    className="link"
+                    href="https://www.platform.swahilipothub.org/accounts/register/casemanager"
+                    target="_blank"
                   >
                     as a Mentor
                   </a>
@@ -45,12 +45,12 @@ const CaseManagement = () => {
               </div>
             </div>
             {/* End Col */}
-            <div className='col-md-6 content-space-md-1'>
-              <div className='w-85 w-md-100 mx-auto me-md-auto'>
+            <div className="col-md-6 content-space-md-1">
+              <div className="w-85 w-md-100 mx-auto me-md-auto">
                 <img
-                  className='img-fluid'
-                  src='/images/landing/00.jpg'
-                  alt='Image Description'
+                  className="img-fluid"
+                  src="/images/landing/00.jpg"
+                  alt="Image Description"
                 />
               </div>
             </div>
