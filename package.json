@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && rm -rf ./.next/cache",
     "start": "next start",
     "format:write": "prettier --write \"**/*.{js,jsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{js,jsx,mdx}\" --cache",
