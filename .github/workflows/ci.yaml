@@ -1,4 +1,4 @@
-name: CI - Fursa Web App
+name: CI - Swahilipot Hub Website
 
 on:
   push:
