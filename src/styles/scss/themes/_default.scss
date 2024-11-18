@@ -1,0 +1,46 @@
+// Front Default Color Variables
+// =========================================================
+
+$root-path: '../' !default;
+
+// Grays
+$gray-100: #f9fafc;
+$gray-200: #f8fafd;
+$gray-300: #e7eaf3;
+$gray-400: #bdc5d1;
+$gray-500: #97a4af;
+$gray-600: #8c98a4;
+$gray-700: #677788;
+$gray-800: #51596c;
+$gray-900: #223b41;
+
+// Colors
+$white: #fff;
+$dark: #00221c;
+$green: #05d825;
+$teal: #067FCBff;
+$blue: #1060B0ff;
+$yellow: #f1b980;
+$red: #692340;
+
+// Theme Colors
+$primary: $blue;
+$primary-light: lighten($primary, 12%) !default;
+$primary-dark: darken($primary, 7%);
+$secondary: $gray-800;
+$success: $teal;
+$info: $blue;
+$warning: $yellow;
+$danger: $red;
+$dark: $dark;
+
+// Theme Soft Colors
+$primary-soft: rgba($green, 0.1);
+$primary-light-soft: rgba(lighten($primary, 12%), 0.1);
+$secondary-soft: rgba($secondary, 0.1);
+$success-soft: rgba($teal, 0.1);
+$info-soft: rgba($blue, 0.1);
+$warning-soft: rgba($yellow, 0.1);
+$danger-soft: rgba($red, 0.1);
+$light-soft: rgba($gray-100, 0.1);
+$dark-soft: rgba($dark, 0.1);

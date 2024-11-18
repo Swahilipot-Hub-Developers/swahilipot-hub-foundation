@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "sponsor_name": "Datacamp Donates",
+    "imageURL": "/assets/img/datacamp-partners/DC_Donates_logo_regular.png",
+    "link": "https://www.datacamp.com/donates"
+  },
+  {
+   "id": 2,
+    "sponsor_name": "Mombasa County",
+    "imageURL": "/assets/img/partners-img/county.png",
+    "link": "https://web.mombasa.go.ke/"
+  },
+  {
+    "id": 3,
+     "sponsor_name": "HUAWEI",
+     "imageURL": "/assets/img/partners-img/huawei.png",
+     "link": "https://e.huawei.com/en/talent/learning/#/home"
+   },
+   {
+    "id": 4,
+     "sponsor_name": "CISCO",
+     "imageURL": "/assets/img/partners-img/cisco.png",
+     "link": "https://www.cisco.com/"
+   },
+   {
+    "id": 5,
+     "sponsor_name": "LIQUID",
+     "imageURL": "/assets/img/partners-img/liquid.png",
+     "link": "https://liquid.tech/"
+   },
+  {
+    "id": 6,
+     "sponsor_name": "Konza Technopolis",
+     "imageURL": "/assets/img/partners-img/Konza.png",
+     "link": "https://konza.go.ke/"
+  },
+  {
+    "id": 6,
+     "sponsor_name": "Ministry of ICT",
+     "imageURL": "/assets/img/partners-img/ict.png",
+     "link": "#"
+  },
+  {
+    "id": 7,
+     "sponsor_name": "Seacom",
+     "imageURL": "/assets/img/partners-img/seacom.png",
+     "link": "https://www.seacom.com/"
+  },
+  {
+    "id": 8,
+     "sponsor_name": "National Museum of Kenya",
+     "imageURL": "/assets/img/partners-img/nmk.png",
+     "link": "https://museums.or.ke/"
+  },
+  {
+    "id": 9,
+     "sponsor_name": "Global Development Incubator",
+     "imageURL": "/assets/img/partners-img/GDI.png",
+     "link": "https://globaldevincubator.org/"
+  },
+  {
+    "id": 10,
+     "sponsor_name": "Conrad Hilton Foundation",
+     "imageURL": "/assets/img/partners-img/conradhiltonfoundation.png",
+     "link": "https://www.hiltonfoundation.org/"
+  },
+  {
+    "id": 11,
+     "sponsor_name": "Absa Bank",
+     "imageURL": "/assets/img/partners-img/absa-logo-red.png",
+     "link": "https://www.absabank.co.ke/personal/"
+  },
+  {
+    "id": 12,
+     "sponsor_name": "KNCCI",
+     "imageURL": "/assets/img/partners-img/KNCCI.png",
+     "link": "https://www.kenyachamber.or.ke/"
+  },
+  {
+    "id": 13,
+     "sponsor_name": "Mastercard Foundation",
+     "imageURL": "/assets/img/partners-img/mastercard-foundation.png",
+     "link": "https://mastercardfdn.org/"
+  },
+  {
+    "id": 13,
+     "sponsor_name": "NGO Source",
+     "imageURL": "/assets/img/partners-img/ngosource.png",
+     "link": "https://www.ngosource.org/about-equivalency-determination-on-file-badge"
+  }
+]

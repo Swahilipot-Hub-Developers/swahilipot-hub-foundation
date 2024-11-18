@@ -1,0 +1,51 @@
+{
+  "name": "swahilipot-hub-foundation",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@portabletext/react": "^3.0.11",
+    "@sanity/block-content-to-html": "^2.0.0",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/cli": "^3.20.2",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.20.2",
+    "@sentry/nextjs": "^7.103.0",
+    "@vercel/analytics": "^0.1.11",
+    "aos": "^2.3.4",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "dotenv": "^16.4.5",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "next": "^13.5.6",
+    "next-images": "^1.8.5",
+    "next-sanity": "^5.5.10",
+    "next-sanity-image": "^6.1.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "18.2.0",
+    "react-ga": "^3.3.1",
+    "react-responsive": "^9.0.2",
+    "react-slick": "^0.30.2",
+    "react-tweet-embed": "^2.0.0",
+    "react-twitter-embed": "^4.0.4",
+    "sanity": "^3.20.2",
+    "sharp": "^0.32.6",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.1",
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4",
+    "sass": "^1.63.6"
+  }
+}
